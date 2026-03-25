@@ -1,0 +1,27 @@
+.completeinfastructure {
+    padding-top: 103px;
+    padding-bottom: 400px; /* allow scroll for last card */
+    position: relative;
+}
+
+.flexdirexction {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0px; /* set 0, we’ll handle overlap with negative margin */
+}
+
+.completestructurecontent {
+    position: sticky;
+    top: 50px;      /* make sure px is added */
+    z-index: 1;
+    border: 1px solid #00000014;
+    border-radius: 35px;
+    background: #fff;
+    padding: 48px 32px 50px 48px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+/* stacking order */
+.card1 { z-index: 3; }
+.card2 { z-index: 2; margin-top: -100vh; } /* full screen height overlap */
