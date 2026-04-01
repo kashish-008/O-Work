@@ -922,11 +922,11 @@ button {
   }
 
   .img-overlay-text {
-  bottom: 50px;
-  left: 28px;
-  max-width: 55%;
-  font-size: clamp(13px, 1.6vw, 20px);
-}
+    bottom: 50px;
+    left: 28px;
+    max-width: 55%;
+    font-size: clamp(13px, 1.6vw, 20px);
+  }
 }
 
 /* Mobile devices (max-width: 768px) */
@@ -1071,12 +1071,12 @@ button {
   }
 
   .img-overlay-text {
-  bottom: 10px;
-  left: 14px;
-  max-width: 75%;
-  font-size: clamp(10px, 2.5vw, 13px);
-  line-height: 1.4;
-}
+    bottom: 10px;
+    left: 14px;
+    max-width: 75%;
+    font-size: clamp(10px, 2.5vw, 13px);
+    line-height: 1.4;
+  }
 
   .img-overlay-text br {
     display: none;
