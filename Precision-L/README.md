@@ -1,1 +1,1 @@
-https://kashish-008.github.io/O-Work/Precision-l
+https://kashish-008.github.io/O-Work/Precision-L
